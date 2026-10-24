@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Perfect Fitness Gym | Premium Training Club</title>
+  <meta name="description" content="Perfect Fitness Gym is a premium training environment for people who take fitness seriously. Modern equipment, expert guidance and a focused community. Book your free trial.">
+  <meta name="theme-color" content="#070707">
+  <meta property="og:title" content="Perfect Fitness Gym | Premium Training Club">
+  <meta property="og:description" content="Build the body. Elevate the mind. Book your free trial today.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=70">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient layers -->
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb--a" aria-hidden="true"></div>
+  <div class="orb orb--b" aria-hidden="true"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner glass">
+      <a href="#top" class="logo" aria-label="Perfect Fitness Gym, home">
+        <span class="logo__mark">PF</span>
+        <span class="logo__text">Perfect<b>Fitness</b></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#membership">Membership</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="#contact" class="btn btn--accent btn--sm">Join Now</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer__links" aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#membership">Membership</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--accent drawer__cta">Book a free trial</a>
+  </aside>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" data-parallax="0.15">
+        <img
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=2200&q=75"
+          alt="Athlete training in a modern gym"
+          fetchpriority="high"
+          onerror="this.style.display='none'">
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__orb" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="eyebrow" data-hero="eyebrow">Perfect Fitness Gym</p>
+
+        <h1 class="hero__title" aria-label="Build the body. Elevate the mind.">
+          <span class="line"><span class="line__in">Build the</span></span>
+          <span class="line"><span class="line__in">body<em>.</em></span></span>
+          <span class="line"><span class="line__in">Elevate the</span></span>
+          <span class="line"><span class="line__in">mind<em>.</em></span></span>
+        </h1>
+
+        <p class="hero__text" data-hero="text">A premium training environment built for people who take their fitness seriously.</p>
+
+        <div class="hero__cta" data-hero="cta">
+          <a href="#contact" class="btn btn--accent btn--lg">Start your journey
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#facilities" class="btn btn--ghost btn--lg">Explore the gym</a>
+        </div>
+      </div>
+
+      <div class="hero__stats glass glass--liquid" data-hero="stats">
+        <div class="stat"><strong>01</strong><span>Premium Training</span></div>
+        <div class="stat"><strong>24/7</strong><span>Fitness Mindset</span></div>
+        <div class="stat"><strong>100%</strong><span>Commitment</span></div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span><em>Scroll</em></div>
+    </section>
+
+    <!-- ===== BRAND STATEMENT ===== -->
+    <section class="statement" id="about">
+      <div class="container statement__grid">
+        <p class="label reveal">( 01 ) &nbsp;About</p>
+        <div>
+          <h2 class="statement__title" data-split>Your strongest self starts here.</h2>
+          <p class="statement__body reveal">Perfect Fitness Gym is designed for focused training, measurable progress and an environment that keeps you moving forward.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES ===== -->
+    <section class="features section">
+      <div class="container">
+        <header class="section__head">
+          <p class="label reveal">( 02 ) &nbsp;Why us</p>
+          <h2 class="h2 reveal">More than a gym.</h2>
+          <p class="section__sub reveal">Everything you need to train with purpose.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card glass reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5v11M17.5 6.5v11M3 9v6M21 9v6M6.5 12h11"/></svg></div>
+            <h3>Premium Equipment</h3>
+            <p>Modern strength and cardio equipment designed for effective training.</p>
+          </article>
+          <article class="card glass reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-3.9 3.1-7 7-7 1.4 0 2.7.4 3.8 1.1"/><path d="m16 18 2 2 4-4"/></svg></div>
+            <h3>Expert Guidance</h3>
+            <p>Support and guidance to help you train smarter and progress consistently.</p>
+          </article>
+          <article class="card glass reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+            <h3>Performance Environment</h3>
+            <p>A focused, energetic environment built around progress.</p>
+          </article>
+          <article class="card glass reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 17l.7 2.3L22 20l-2.3.7L19 23l-.7-2.3L16 20l2.3-.7z"/></svg></div>
+            <h3>Clean &amp; Comfortable</h3>
+            <p>A premium training space where cleanliness and comfort matter.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FACILITIES ===== -->
+    <section class="facilities section" id="facilities">
+      <div class="container facilities__grid">
+        <div class="facilities__media reveal">
+          <img
+            id="facImg"
+            src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1400&q=75"
+            alt="Strength training area with free weights"
+            loading="lazy"
+            onerror="this.style.display='none'">
+          <div class="facilities__badge glass glass--liquid">
+            <strong>6</strong><span>Dedicated<br>training zones</span>
+          </div>
+        </div>
+
+        <div class="facilities__content">
+          <p class="label reveal">( 03 ) &nbsp;Facilities</p>
+          <h2 class="h2 reveal">Built for performance.</h2>
+          <ul class="flist">
+            <li class="reveal"><span>01</span>Strength Training</li>
+            <li class="reveal"><span>02</span>Cardio Zone</li>
+            <li class="reveal"><span>03</span>Functional Training</li>
+            <li class="reveal"><span>04</span>Free Weights</li>
+            <li class="reveal"><span>05</span>Mobility &amp; Conditioning</li>
+            <li class="reveal"><span>06</span>Dedicated Training Areas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MEMBERSHIP ===== -->
+    <!-- NOTE: Prices below are PLACEHOLDERS. Replace with your real pricing. -->
+    <section class="membership section" id="membership">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <p class="label reveal">( 04 ) &nbsp;Membership</p>
+          <h2 class="h2 reveal">Choose your commitment.</h2>
+          <p class="section__sub reveal">Flexible membership options designed around your goals.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan glass reveal">
+            <h3 class="plan__name">Monthly</h3>
+            <p class="plan__desc">Full flexibility. Train month to month.</p>
+            <p class="plan__price"><sup>₹</sup>2,000<small>/ month</small></p>
+            <ul class="plan__list">
+              <li>Full gym access</li>
+              <li>Cardio &amp; strength zones</li>
+              <li>Orientation session</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block" data-plan="Monthly">Choose Monthly</a>
+          </article>
+
+          <article class="plan plan--featured glass glass--liquid reveal">
+            <span class="plan__tag">Most popular</span>
+            <h3 class="plan__name">Quarterly</h3>
+            <p class="plan__desc">Build the habit with three focused months.</p>
+            <p class="plan__price"><sup>₹</sup>5,400<small>/ 3 months</small></p>
+            <ul class="plan__list">
+              <li>Everything in Monthly</li>
+              <li>Progress check-ins</li>
+              <li>Priority guidance</li>
+              <li>Save vs. monthly</li>
+            </ul>
+            <a href="#contact" class="btn btn--accent btn--block" data-plan="Quarterly">Choose Quarterly</a>
+          </article>
+
+          <article class="plan glass reveal">
+            <h3 class="plan__name">Annual</h3>
+            <p class="plan__desc">The best value for a long-term transformation.</p>
+            <p class="plan__price"><sup>₹</sup>18,000<small>/ year</small></p>
+            <ul class="plan__list">
+              <li>Everything in Quarterly</li>
+              <li>Best price per month</li>
+              <li>Quarterly body assessment</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block" data-plan="Annual">Choose Annual</a>
+          </article>
+        </div>
+        <p class="fine reveal">Pricing shown is indicative. Contact us for current offers and a free trial session.</p>
+      </div>
+    </section>
+
+    <!-- ===== TRAINERS ===== -->
+    <!-- NOTE: Names/roles are PLACEHOLDERS. Replace with your real team and photos. -->
+    <section class="trainers section" id="trainers">
+      <div class="container">
+        <header class="section__head">
+          <p class="label reveal">( 05 ) &nbsp;Trainers</p>
+          <h2 class="h2 reveal">Coached with intent.</h2>
+          <p class="section__sub reveal">The people who help you train smarter.</p>
+        </header>
+
+        <div class="team">
+          <article class="trainer reveal">
+            <div class="trainer__img">
+              <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=70" alt="Head coach" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="trainer__info glass">
+              <h3>Head Coach</h3>
+              <p>Strength &amp; Conditioning</p>
+            </div>
+          </article>
+          <article class="trainer reveal">
+            <div class="trainer__img">
+              <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=70" alt="Performance coach" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="trainer__info glass">
+              <h3>Performance Coach</h3>
+              <p>Functional Training</p>
+            </div>
+          </article>
+          <article class="trainer reveal">
+            <div class="trainer__img">
+              <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=800&q=70" alt="Fitness coach" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="trainer__info glass">
+              <h3>Fitness Coach</h3>
+              <p>Mobility &amp; Fat Loss</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <header class="section__head">
+          <p class="label reveal">( 06 ) &nbsp;Gallery</p>
+          <h2 class="h2 reveal">Inside the club.</h2>
+        </header>
+
+        <div class="mosaic">
+          <figure class="tile tile--wide reveal"><img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1400&q=70" alt="Training floor" loading="lazy" onerror="this.style.display='none'"><figcaption class="glass">Training Floor</figcaption></figure>
+          <figure class="tile reveal"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=70" alt="Free weights" loading="lazy" onerror="this.style.display='none'"><figcaption class="glass">Free Weights</figcaption></figure>
+          <figure class="tile tile--tall reveal"><img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=800&q=70" alt="Strength session" loading="lazy" onerror="this.style.display='none'"><figcaption class="glass">Strength</figcaption></figure>
+          <figure class="tile reveal"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=800&q=70" alt="Functional training" loading="lazy" onerror="this.style.display='none'"><figcaption class="glass">Functional</figcaption></figure>
+          <figure class="tile reveal"><img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?auto=format&fit=crop&w=800&q=70" alt="Conditioning" loading="lazy" onerror="this.style.display='none'"><figcaption class="glass">Conditioning</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <!-- NOTE: Replace with real member reviews before launch. -->
+    <section class="voices section">
+      <div class="container">
+        <header class="section__head section__head--center">
+          <p class="label reveal">( 07 ) &nbsp;Members</p>
+          <h2 class="h2 reveal">Progress, in their words.</h2>
+        </header>
+
+        <div class="slider reveal" id="slider">
+          <div class="slides">
+            <blockquote class="slide is-active">
+              <p>“Add a real member testimonial here. Keep it specific: what changed, and how long it took.”</p>
+              <footer><b>Member name</b><span>Member since 2025</span></footer>
+            </blockquote>
+            <blockquote class="slide">
+              <p>“Add a second testimonial here about the equipment, the coaching or the atmosphere.”</p>
+              <footer><b>Member name</b><span>Member since 2024</span></footer>
+            </blockquote>
+            <blockquote class="slide">
+              <p>“Add a third testimonial here about results and consistency.”</p>
+              <footer><b>Member name</b><span>Member since 2023</span></footer>
+            </blockquote>
+          </div>
+          <div class="slider__dots" role="tablist" aria-label="Testimonials">
+            <button class="is-active" aria-label="Testimonial 1"></button>
+            <button aria-label="Testimonial 2"></button>
+            <button aria-label="Testimonial 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__copy">
+          <p class="label reveal">( 08 ) &nbsp;Contact</p>
+          <h2 class="h2 reveal">Book your free trial.</h2>
+          <p class="section__sub reveal">Tell us your goal. We'll take it from there.</p>
+
+          <ul class="contact__list reveal">
+            <li><span>Call</span><a href="tel:+910000000000" data-cfg="phone">+91 00000 00000</a></li>
+            <li><span>Email</span><a href="mailto:hello@perfectfitnessgym.com" data-cfg="email">hello@perfectfitnessgym.com</a></li>
+            <li><span>Visit</span><em data-cfg="address">Your gym address, City, State</em></li>
+            <li><span>Hours</span><em>Mon – Sat · 5:00 AM – 10:00 PM<br>Sun · 6:00 AM – 12:00 PM</em></li>
+          </ul>
+        </div>
+
+        <form class="form glass glass--liquid reveal" id="leadForm" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name">
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="10-digit mobile number" inputmode="tel">
+          </div>
+          <div class="field">
+            <label for="plan">Interested in</label>
+            <select id="plan" name="plan">
+              <option>Free trial session</option>
+              <option>Monthly</option>
+              <option>Quarterly</option>
+              <option>Annual</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="goal">Your goal <i>(optional)</i></label>
+            <textarea id="goal" name="goal" rows="3" placeholder="Fat loss, muscle gain, strength, general fitness..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--accent btn--lg btn--block">Send enquiry on WhatsApp</button>
+          <p class="form__msg" id="formMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo"><span class="logo__mark">PF</span><span class="logo__text">Perfect<b>Fitness</b></span></a>
+      <p>© <span id="year"></span> Perfect Fitness Gym. All rights reserved.</p>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="#contact" class="float-cta btn btn--accent" id="floatCta">Free trial</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
